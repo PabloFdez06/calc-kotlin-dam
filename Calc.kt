@@ -9,7 +9,7 @@ fun main(args: Array) {
 }
 
 fun parseArguments(args: Array): Triple {
-    if (args.size != 3) {
+    if (args.size != 3) { 
         throw IllegalArgumentException("Número incorrecto de argumentos")
     }
     val operation = args[0]
